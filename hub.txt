@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script tổng hợp"})
-
+     local Tab3o = MakeTab({name = "script có ket"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -67,5 +67,13 @@ AddButton(Tab1o, {
     Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()(Settings)
+  end
+  })
+
+AddButton(Tab3o, {
+     Name = "omg shit",
+    Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()(Settings)
   end
   })
