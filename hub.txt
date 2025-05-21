@@ -77,3 +77,14 @@ AddButton(Tab3o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()(Settings)
   end
   })
+
+AddButton(Tab2o, {
+     Name = "script tổng hợp Tuấn anh ios",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()(Settings)
+  end
+  })
